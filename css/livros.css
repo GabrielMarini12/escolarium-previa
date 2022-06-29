@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+} 
+.mainBackground {
+background-image: url("https://i.pinimg.com/originals/c1/29/30/c1293049c71ff34ffbb52ae03ed6bb18.jpg");
+height: 100%;
+background-attachment: fixed;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+} 
+.mainPanel {
+margin-top: 50px;
+width: 65%;
+height: 800px;
+background-color: #f5f5f5;
+border-radius: 30px;
+box-shadow: -3px 5px 5px 1px rgba(0, 0, 0, 0.2);
+display:flex;
+justify-content:flex-start;
+align-items:center;
+flex-direction:column;
+
+} 
+
+
+
+
+.mainPanel h1 {
+margin-top: 50px;
+font-size: 70px;
+} 
+.mainPanel p {
+margin-top: 10px;
+} 
+.HorizontalRow {
+height: 1px;
+width: 90%;
+border-bottom: 1px solid grey;
+}
+.bookTable {
+width: 900px;
+border-radius: 15px;
+padding: 10px;
+} 
+.tableDiv {
+overflow-y: scroll;
+height: 500px;
+border: 1px solid black;
+border-radius: 15px;
+box-shadow: -3px 5px 5px 1px rgba(0, 0, 0, 0.2);
+padding: 10px;
+} 
+.newBook {
+margin-top: 50px;
+width: 65%;
+height: 500px;
+background-color: #f5f5f5;
+border-radius: 30px;
+box-shadow: -3px 5px 5px 1px rgba(0, 0, 0, 0.2);
+margin-bottom: 50px;
+display: grid;
+grid-template-columns: 70% 30%;
+align-items: center;
+} 
+.formRow {
+margin-top: 10px;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+width: 195px;
+} 
+.addForm{
+border: 1px solid black;
+width: 320px;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+border-radius: 15px;
+box-shadow: -3px 5px 5px 1px rgba(0, 0, 0, 0.2);
+} 
+.addButton {
+background-color: green;
+width: 100px;
+height: 40px;
+border-radius: 6px;
+border: 0px;
+margin-top: 15px;
+} 
+.removeButton {
+background-color: red;
+width: 100px;
+height: 30px;
+border-radius: 6px;
+border: 0px;
+} 
+.innerAddForm {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 300px;
+} 
+.addBookTitle {
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+}
+
+.formRow {
+    margin-top: 20px;
+}
+
+.formRow label {
+    margin-right: 10px;
+}
+
+
+@media (max-width: 1400px) {
+    .mainPanel {
+        width: 80%;
+    }
+
+    .newBook {
+        width: 80%;
+        grid-template-columns: 60% 40%;
+    }
+
+    .inputsNewBook {
+        margin-left: 30px;
+    }
+    
+}
